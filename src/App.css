@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 80px;
+}
+.content{
+  gap: 50px;
+}
+.trait {
+  /* border: 1px solid black; */
+  background-color: #000;
+  height: 5px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-reset,
+select {
+  width: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fleur {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+
+}
+
+.div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 50px;
+}
+.panier{
+  background-color: #228B22;
+  height: 100vh;
+  width: 250px;
+}
+.fa-tint {
+  color: #ADD8E6;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-sun-o {
+  color: #FDB813
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price{
+  background-color: #228B22;
+  width: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: absolute;
+  top: 0;
+  right: -2px;
+  padding: 5px;
+ 
+}
+.para{
+  position: relative;
 }
